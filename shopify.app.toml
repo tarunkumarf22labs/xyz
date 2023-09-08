@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "herostars"
+client_id = "99eeacd327f08a113edcaa4cd744b26d"
+application_url = "https://organisms-provincial-cherry-describe.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://organisms-provincial-cherry-describe.trycloudflare.com/auth/callback",
+  "https://organisms-provincial-cherry-describe.trycloudflare.com/auth/shopify/callback",
+  "https://organisms-provincial-cherry-describe.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "test-for-qa.myshopify.com"
