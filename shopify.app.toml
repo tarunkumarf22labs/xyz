@@ -1,8 +1,8 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-name = "herostars"
+name = "Shopclips"
 client_id = "99eeacd327f08a113edcaa4cd744b26d"
-application_url = "https://organisms-provincial-cherry-describe.trycloudflare.com"
+application_url = "https://au-migration-bands-northern.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://organisms-provincial-cherry-describe.trycloudflare.com/auth/callback",
-  "https://organisms-provincial-cherry-describe.trycloudflare.com/auth/shopify/callback",
-  "https://organisms-provincial-cherry-describe.trycloudflare.com/api/auth/callback"
+  "https://au-migration-bands-northern.trycloudflare.com/auth/callback",
+  "https://au-migration-bands-northern.trycloudflare.com/auth/shopify/callback",
+  "https://au-migration-bands-northern.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

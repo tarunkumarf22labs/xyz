@@ -69,7 +69,12 @@ li {
   max-width: 20rem;
   text-align: left;
 }
-
+.tag__product { 
+  display: none;
+}
+.tag__product::-webkit-scrollbar{
+    height: 0;
+}
 @media only screen and (max-width: 50rem) {
   ul {
     display: block;
@@ -78,4 +83,8 @@ li {
   li {
     padding-bottom: 1rem;
   }
+}
+
+body {
+  display:  none;
 }
