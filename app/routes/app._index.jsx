@@ -4103,7 +4103,7 @@ const Frame = ({ carddata , User , cardNo}) => {
     const validationErrors = validate(data);
     if (!Object.keys(validationErrors).length) {
       setErrors(validationErrors)
-      setdummydata(`why i am here ${Object.keys(validationErrors).length} `)
+      setdummydata(`why i am here ${Object.keys(validationErrors).length} `) 
         handleSubmission(event) 
     } else {
       setErrors(validationErrors)
